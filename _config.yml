@@ -6,3 +6,8 @@ permalink: /:basename.html
 search_enabled: true
 search:
   tokenizer_separator: /[\s\-]+/  # 検索ワードを区切るルール（日本語検索を安定させるため）
+
+# 検索データ生成の制限を緩和する設定
+json:
+  high_lighting: false
+
